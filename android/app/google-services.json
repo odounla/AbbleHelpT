@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "649301835668",
+    "firebase_url": "https://abblehelp-default-rtdb.firebaseio.com",
+    "project_id": "abblehelp",
+    "storage_bucket": "abblehelp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649301835668:android:c487df4aef2b0ce1be1981",
+        "android_client_info": {
+          "package_name": "com.itgrafik.abblehelptech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIqqAT05R4Zsf5wN2LzndMwAzvUImolRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
