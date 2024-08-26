@@ -25,7 +25,13 @@ void main() async{
         Permission.locationWhenInUse.request();
       }
     });
-  
+
+    await Permission.notification.isDenied.then((valueOfPermission){
+      if(valueOfPermission){
+        Permission.notification.request();
+      }
+    });
+
 
   await SharedPreferences.getInstance();
   runApp(ChangeNotifierProvider(
